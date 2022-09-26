@@ -28,7 +28,18 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
-
+	<repositories>
+	<repository>
+	      <id>nexus</id>
+	      <name>tesla proxy Repo</name>
+	      <url>http://44.211.74.239:8191/repository/tesla-proxy/</url>
+	    </repository>
+	<repository>
+	      <id>nexus</id>
+	      <name>tesla remote Repo</name>
+	      <url>http://44.211.74.239:8191/repository/tesla-remote/</url>
+	    </repository>	
+	</repositories>
 	<dependencies>
 		
 		<dependency>
